@@ -10,6 +10,10 @@ import Footer from '../../components/Footer/Footer'
 
 import CurrencyRow from '../../components/Converter/Converter'
 
+import FxRates from '../../components/fxrates.component'
+
+// src\components\fxrates.component.jsx
+
 
 
 
@@ -19,9 +23,11 @@ const PageTwo = (props) => {
     <Fragment>
       <div className="header">
         <Navbar />
-        <CurrencyRow
-        />
+        <CurrencyRow />
+        
       </div>
+      <FxRates />
+
       <Api />
       <Photo />
       <About />

@@ -1,11 +1,12 @@
 import React from 'react';
 import './Api.css'
-
+import FxRates from '../../components/fxrates.component'
 
 const Api = () => {
   
   return (
     <div className="api_resource">
+      {/* <FxRates /> */}
       <div className="container">
         <h1>API Resources</h1>
         <div className="api">

@@ -51,7 +51,7 @@ const Converter = (props) => {
   }, []);
 
   useEffect(() => {
-    if (fromCurrency != null && toCurrency != null) {
+    if (fromCurrency != undefined && toCurrency != undefined) {
       fetch(requestURL)
         .then((response) => response.json())
         .then((data) => {
