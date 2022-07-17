@@ -19,7 +19,7 @@ const App = () => {
         <Route exact path="/">
           <PageThree />
         </Route>
-        <Route exact path="/about">
+        <Route path="/about">
           <PageOne />
         </Route>
       </Switch>
