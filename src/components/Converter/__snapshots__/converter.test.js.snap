@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`converter-component should match the snapshot 1`] = `
+"<Converter fromCurrency=\\"USD\\" toCurrency=\\"INR\\" listOption={{...}} showLoading={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: Object [Object: null prototype] { calls: [ [ true ] ], instances: [ { fromCurrency: 'USD', toCurrency: 'INR', listOption: {}, showLoading: [Circular], onSubmit: [Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: [Object], mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] } } ], invocationCallOrder: [ 1 ], results: [ Object [Object: null prototype] { type: 'return', value: undefined } ] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }} onSubmit={[Function: mockConstructor] { _isMockFunction: true, getMockImplementation: [Function (anonymous)], mock: Object [Object: null prototype] { calls: [], instances: [], invocationCallOrder: [], results: [] }, mockClear: [Function (anonymous)], mockReset: [Function (anonymous)], mockRestore: [Function (anonymous)], mockReturnValueOnce: [Function (anonymous)], mockResolvedValueOnce: [Function (anonymous)], mockRejectedValueOnce: [Function (anonymous)], mockReturnValue: [Function (anonymous)], mockResolvedValue: [Function (anonymous)], mockRejectedValue: [Function (anonymous)], mockImplementationOnce: [Function (anonymous)], mockImplementation: [Function (anonymous)], mockReturnThis: [Function (anonymous)], mockName: [Function (anonymous)], getMockName: [Function (anonymous)] }}>
+  <div className=\\"rff-converter\\">
+    <Card className=\\"rff-formcontainer\\" body={false}>
+      <div className=\\"rff-formcontainer card\\">
+        <CardHeader as=\\"h5\\">
+          <h5 className=\\"card-header\\">
+            <span>
+              Currency 
+            </span>
+            Converter
+            <span role=\\"img\\" aria-label=\\"money\\" style={{...}} className=\\"headerimage\\" />
+          </h5>
+        </CardHeader>
+        <CardBody>
+          <div className=\\"card-body\\">
+            <Form noValidate={true} validated={false} onSubmit={[Function: onConvertButtonClick]} className=\\"rff-convertform\\" inline={false}>
+              <form noValidate={true} onSubmit={[Function: onConvertButtonClick]} className=\\"rff-convertform\\">
+                <FormRow>
+                  <div className=\\"form-row\\">
+                    <FormGroup as={{...}} md=\\"6\\" controlId=\\"converterForm.baseAmount\\">
+                      <Col md=\\"6\\" className=\\"form-group\\">
+                        <div className=\\"form-group col-md-6\\">
+                          <FormControl type=\\"text\\" placeholder=\\"Base amount\\" name=\\"baseamount\\" className=\\"rff-baseamount\\" defaultValue={[undefined]} onChange={[Function: onAmountChange]}>
+                            <input placeholder=\\"Base amount\\" name=\\"baseamount\\" defaultValue={[undefined]} onChange={[Function: onAmountChange]} type=\\"text\\" size={[undefined]} readOnly={[undefined]} id=\\"converterForm.baseAmount\\" className=\\"rff-baseamount form-control\\" />
+                          </FormControl>
+                        </div>
+                      </Col>
+                    </FormGroup>
+                    <FormGroup as={{...}} md=\\"6\\">
+                      <Col md=\\"6\\" className=\\"form-group\\">
+                        <div className=\\"form-group col-md-6\\">
+                          <FormControl as=\\"select\\" name=\\"from\\" className=\\"rff-fromcurrency\\" defaultValue=\\"USD\\" onChange={[Function: onChange]}>
+                            <select name=\\"from\\" defaultValue=\\"USD\\" onChange={[Function: onChange]} type={[undefined]} size={[undefined]} readOnly={[undefined]} id={[undefined]} className=\\"rff-fromcurrency form-control\\" />
+                          </FormControl>
+                        </div>
+                      </Col>
+                    </FormGroup>
+                  </div>
+                </FormRow>
+                <FormRow>
+                  <div className=\\"form-row\\">
+                    <FormGroup as={{...}} md=\\"6\\" controlId=\\"converterForm.targetAmount\\">
+                      <Col md=\\"6\\" className=\\"form-group\\">
+                        <div className=\\"form-group col-md-6\\">
+                          <FormControl type=\\"text\\" placeholder=\\"Target amount\\" name=\\"targetamount\\" className=\\"rff-targetamount\\" defaultValue={[undefined]} onChange={[Function: onAmountChange]}>
+                            <input placeholder=\\"Target amount\\" name=\\"targetamount\\" defaultValue={[undefined]} onChange={[Function: onAmountChange]} type=\\"text\\" size={[undefined]} readOnly={[undefined]} id=\\"converterForm.targetAmount\\" className=\\"rff-targetamount form-control\\" />
+                          </FormControl>
+                        </div>
+                      </Col>
+                    </FormGroup>
+                    <FormGroup as={{...}} md=\\"6\\" controlId=\\"validationFormik01\\">
+                      <Col md=\\"6\\" className=\\"form-group\\">
+                        <div className=\\"form-group col-md-6\\">
+                          <FormControl as=\\"select\\" name=\\"to\\" className=\\"rff-tocurrency\\" defaultValue=\\"INR\\" onChange={[Function: onChange]}>
+                            <select name=\\"to\\" defaultValue=\\"INR\\" onChange={[Function: onChange]} type={[undefined]} size={[undefined]} readOnly={[undefined]} id=\\"validationFormik01\\" className=\\"rff-tocurrency form-control\\" />
+                          </FormControl>
+                        </div>
+                      </Col>
+                    </FormGroup>
+                  </div>
+                </FormRow>
+                <FormRow>
+                  <div className=\\"form-row\\">
+                    <FormGroup as={{...}} md=\\"12\\">
+                      <Col md=\\"12\\" className=\\"form-group\\">
+                        <div className=\\"form-group col-md-12\\">
+                          <FormControl type=\\"number\\" placeholder=\\"Enter no of weeks\\" className=\\"rff-week\\" value={1} min=\\"1\\" max=\\"25\\" onChange={[Function: onChange]} required={true}>
+                            <input placeholder=\\"Enter no of weeks\\" value={1} min=\\"1\\" max=\\"25\\" onChange={[Function: onChange]} required={true} type=\\"number\\" size={[undefined]} readOnly={[undefined]} id={[undefined]} className=\\"rff-week form-control\\" />
+                          </FormControl>
+                          <Feedback type=\\"invalid\\">
+                            <div className=\\"invalid-feedback\\">
+                              Provide a number between 1 to 25.
+                            </div>
+                          </Feedback>
+                        </div>
+                      </Col>
+                    </FormGroup>
+                  </div>
+                </FormRow>
+                <Button type=\\"submit\\" className=\\"rff-submitbtn\\" disabled={true} variant=\\"primary\\" active={false}>
+                  <button disabled={true} type=\\"submit\\" className=\\"rff-submitbtn btn btn-primary\\">
+                    Convert
+                  </button>
+                </Button>
+              </form>
+            </Form>
+          </div>
+        </CardBody>
+      </div>
+    </Card>
+    <Container className=\\"rff-chartcontainersingle\\" fluid={false}>
+      <div className=\\"rff-chartcontainersingle container\\">
+        <Row noGutters={false}>
+          <div className=\\"row\\" />
+        </Row>
+        <div className=\\"rff-chartnodata\\">
+          No chart available
+        </div>
+      </div>
+    </Container>
+  </div>
+</Converter>"
+`;

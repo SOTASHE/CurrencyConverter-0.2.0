@@ -1,6 +1,5 @@
 import React from 'react';
 import './Api.css'
-import FxRates from '../../components/fxrates.component'
 
 const Api = () => {
   
